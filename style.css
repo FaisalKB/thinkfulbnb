@@ -65,7 +65,7 @@ header nav {
 
 .logo {
   font-family: "Pangolin", cursive;
-  font-size: 72px;
+  font-size: 35px; /* revision: fixed logo in mobile mode so that it isn't big enough to break the screen with a white line */
   color: #fff;
 }
 
@@ -154,7 +154,7 @@ footer p {
     align-content: center;
   }
   .logo {
-    font-size: 40px;
+    font-size: 45px; /* revision: fixed logo sizing to prevent screen from breaking */
   }
   #menu {
     padding-bottom: 12px;
@@ -171,11 +171,12 @@ footer p {
     justify-content: space-between;
     width: 100%;
   }
+
   .search {
     display: flex;
     flex-direction: column;
     width: 20%;
-    padding-right: 10px;
+    padding-right: 8px; /* revision: fixed padding to prevent nav from creating white line at 500px */
   }
 
   #btn {
